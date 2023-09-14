@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <!-- connection link btw logo and html -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <center>
+        <br>
+        <!-- logo link -->
+        <i style="color: rgb(151, 13, 42);" class="fa-brands fa-github-alt fa-2xl "></i>
+        
+        <h1>Booking Form</h1>
+        <form>
+            <div>
+                <!-- label and input tags -->
+                <label for="user">Name</label>
+                <input id="user" type="text">
+            </div>
+            <br>
+            <div>
+                <label for="mail">Email</label>
+                <input id="mail" type="email">
+            </div>
+            <br>
+            <div>
+                <label for="mob">Mobile number</label>
+                <input id="mob" type="text">
+            </div>
+            <br>
+            <div>
+                <!-- for address ,text area is used -->
+                <label for="add">Address</label>
+                <textarea name="" id="add" cols="20" rows="4"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="dob">No: of peoples</label>
+                <input id="dob" type="number">
+            </div>
+            <br>
+            
+            
+            <br>
+            <!-- main label for places -->
+            <label for="">Rooms</label>
+            <!-- select tag is used  -->
+            <select name="" id="">
+                <!-- in option tag ,all available options are inserted -->
+                <!-- here one option is selected hidden disabled ,so that this option will not be displayed in dropdown box -->
+                <option selected hidden disabled value="">Choose From here
+                </option>
+                <!-- opt grp is used grp some options -->
+                <optgroup label="">
+                    <option value="">Single bed</option>
+                    <option value="">Double bed</option>
+                    <option value="">Suite room</option>
+                </optgroup>
+                
+</select>
+<br>
+<br>
+<!-- login and cancel button are used -->
+<button   >Cancel</button>
+<button  onclick="send()" >Send</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </form>
+    </center>
+</body>
+<script>
+    function send(){
+        alert('submitted,we will contact you soon')
+        window.location='index.html'
+    }
+</script>
+</html>

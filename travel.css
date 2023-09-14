@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant:wght@300&family=Dancing+Script&family=Handlee&family=Kalam:wght@300&family=Lora:ital@0;1&family=Marck+Script&family=Merienda:wght@300&family=Nanum+Myeongjo&family=Orbitron&family=Satisfy&family=Shantell+Sans:wght@300&family=Space+Grotesk:wght@300&family=Ubuntu:wght@300&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+.firstpage{
+    background-image: url('https://picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg');
+    
+    background-size: cover
+
+}
+/* secondpage starts */
+.secondpage .head{
+    margin-left: ;
+    color: rgba(13, 13, 233, 0.765);
+    font-weight: bolder;
+    margin-left:40px;
+font-family: 'Cinzel', serif;
+
+}
+.secondpage .body{
+
+
+
+}
+.secondpage .carouselhead{
+margin-left: 20px;
+}
+
+.secondpage .div{
+margin-left:700px ;
+margin-top:-430px;
+}
+.secondpage .div .one{
+width: 500px;
+height:150px ;
+border: .5px solid black;
+border-radius: 5px;
+margin-bottom: 30px;
+background-color: rgba(245, 241, 241, 0.573);
+}
+.secondpage .div .one h3{
+margin-left: 40px;
+margin-top: 25px;
+font-size: 25px;
+color: rgba(20, 20, 213, 0.9);
+}
+.secondpage .div .one h6{
+margin-left: 20px;
+margin-top: 30px;
+}
+.secondpage .div .one p{
+margin-left:20px;
+margin-top:-5px;
+
+}
+.secondpage .div .one .a{
+margin-left: 255px;
+margin-top:-90px;
+
+
+}
+.secondpage .div .one a{
+text-decoration: none;
+color: rgba(209, 10, 10, 0.932);
+}
+.secondpage .div .one img{
+    height: 149px;
+    width: 150px;
+    margin-left:350px ;
+    margin-top:-82px;
+    border-radius: 5px;
+}
+.secondpage .div .two{
+    width: 500px;
+    height:150px ;
+    border: .5px solid black;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.secondpage .div .two h3{
+    margin-left: 360px;
+    margin-top:-120px;
+    font-size: 25px;
+    color: rgba(23, 23, 186, 0.856);
+}
+.secondpage .div .two h6{
+    margin-left: 285px;
+    margin-top:25px;
+}
+.secondpage .div .two p{
+    margin-top: -5px;
+    margin-left: 321px;
+}
+.secondpage .div .two .a{
+    margin-left: 168px;
+    margin-top: -85px;
+    
+}
+.secondpage .div .two a{
+    text-decoration: none;
+    color: rgba(220, 11, 11, 0.929);
+    }
+.secondpage .div .two img{
+    height: 149px;
+    width: 150px;
+    border-radius: 5px;
+}
+.secondpage .div .three{
+    width: 500px;
+    height:150px ;
+    border: .5px solid black;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.secondpage .div .three h3{
+    margin-left: 40px;
+    margin-top: 24px;
+    font-size: 25px;
+    color: rgba(18, 18, 197, 0.927);
+}
+.secondpage .div .three h6{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.secondpage .div .three p{
+    margin-left: 57px;
+    margin-top: -5px;
+}
+.secondpage .div .three .a{
+    margin-left: 260px;
+margin-top: -87px;
+
+}
+.secondpage .div .three a{
+    text-decoration: none;
+    color: rgba(222, 8, 8, 0.918);
+    }
+.secondpage .div .three img{
+height: 149px;
+width: 150px;
+margin-left:350px ;
+margin-top:-84px;
+border-radius: 5px;
+}
+
+
+
+
+
+/* thirdpage */
+.thirdpage{
+    background-color: rgba(201, 217, 219, 0.961);
+}
+.thirdpage h1{
+    color: rgb(135, 87, 223);
+    
+    font-family: 'Merienda', cursive;
+    font-weight: 700;
+    font-size: 35px;
+}
+.thirdpage p{
+    color:rgb(7, 7, 7) ;
+    font-size:20px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+
+}
+.thirdpage #img{
+    margin-top: 16px;
+}
+
+
+/* fourth page style */
+.fourthpage{
+    width:100% ;
+    height:100%;
+    
+}
+.fourthpage .head{
+    color: rgba(150, 9, 23, 0.797);
+    margin-left: 50px;
+    font-family: 'Merienda', cursive;
+    font-size: 31px;
+    font-weight: 600;
+    background-color: rgb(248, 245, 245);
+   padding-left: 7px;
+    width: 245px;
+    border-radius: 5px;
+    border: .1px solid rgb(244, 240, 240);
+    
+}
+.fourthcard{
+    width: 100%;
+    height: 220px;
+
+    justify-content: space-evenly;
+    margin-left: 25px;
+    display: flex
+}
+.fourthcard #one{
+margin-left: ;
+width: ;
+}
+.fourthcard #two{
+margin-left:10px ;
+}
+.fourthcard #three{
+margin-left:10px ;
+}
+.fourthcard .div {
+width: 25%;
+
+border: 1px solid rgba(210, 200, 200, 0.957);
+border-radius: 6px;
+
+}
+.fourthcard .div img{
+    border-radius: 8px;
+    width: 115px;
+    height:175px ;
+    margin-top:23px ;
+    margin-left:-40px; 
+    
+
+}
+.fourthcard .div p{
+margin-left: 145px;
+margin-top:-180px;
+background-color: rgba(211, 211, 211, 0.381);
+color: rgba(52, 51, 51, 0.726);
+border-radius: 3px;
+padding-left: 10px;
+padding-right:px;
+padding-top: 2px;
+padding-bottom: 2px;
+margin-right: 27px;
+font-size: 11px;
+font-weight: bold;
+}
+.fourthcard .div h5{
+    margin-left:100px;
+    margin-top: 25px;
+    font-weight: bold;
+
+}
+.fourthcard .div span{
+margin-left:88px;
+font-size: 13px;
+color: rgba(73, 71, 71, 0.932);
+}
+.fourthcard .div h6{
+    
+    margin-left: 226px;
+    margin-top: 40px;
+    
+
+}
+.fourthcard .div a{
+    color: brown;
+    text-decoration: none;
+}
+.border{
+    margin-top:px;
+    margin-bottom:11px;
+    width: 100%;
+    height: 58px;
+    background-color: rgba(191, 191, 210, 0.943);
+    color: whitesmoke;
+    
+}
+.border .first{
+    margin-left: 40px;
+    margin-top: 14px;
+    font-size: 22px;
+    color: rgba(21, 17, 135, 0.938);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:bold;
+}
+.border .second{
+    margin-left: 270px;
+    margin-top:-34px ;
+    font-size: 22px;
+    color: rgba(21, 17, 135, 0.934);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:bold;
+}
+
+/* fifthpage */
+.fifthpage{
+
+}
+.fifthpage .div{
+    display: flex;
+    justify-content: space-between;
+}
+.fifthpage .div1{
+margin-left: 85px;
+margin-top: 15px;
+}
+.fifthpage .div1 h1{
+color:rgba(250, 109, 109, 0.842);
+font-size: 34px;
+font-family: 'Nanum Myeongjo', serif;
+font-weight: 800;
+margin-top:10px ;
+}
+.fifthpage .div1 h2{
+color:rgba(46, 84, 168, 0.925);
+font-size: 34px;
+font-family: 'Ubuntu', sans-serif;
+font-weight: bolder;
+margin-top: ;
+}
+.fifthpage .div2{
+    margin-right:53px;
+    text-align: center;
+    margin-top: px;
+}
+.fifthpage .div2 h2{
+    font-weight: 900;
+}
+
+.fifthpage .div2 .h4{
+font-size: 17px;
+margin-left: -10px;
+padding-bottom: 2px;
+color: brown;
+border:0px;
+
+
+
+
+}
+
+.fifthpage .div2  #number{
+    border-bottom: .5px solid black;
+    font-family: 'Merienda', cursive;
+    font-weight: 500;
+    color: black;
+    
+}
+
+.fifthpage .div2 button{
+margin-left: 25px;
+margin-top: -8px;
+border-radius: 5px;
+border: 0;
+background-color: rgba(205, 45, 33, 0.986);
+color: rgba(250, 249, 249, 0.947);
+padding-top: ;
+padding-bottom: px;
+font-size: 13px;
+font-family: 'Lora', serif;
+font-weight: 500;
+}
+.fifthpage .div2 img{
+width:190px ;
+height:50px ;
+border-radius: 6px;
+}
+.fifthpage .div2 h5{
+    font-size: 21px;
+    margin-top: 15px;
+    color: rgba(229, 102, 102, 0.772);
+    font-family: 'Merianda', cursive;
+    font-weight: 00;
+}
+.fifthpage .div2 .contact{
+    display: flex;
+}
+.fifthpage .div3{
+text-align: center;
+margin-right:70px ;
+margin-top:-5px;
+}
+.fifthpage .div3 img{
+    width:130px ;
+    height:130px ;
+}
+.fifthpage .div3 p{
+    color: rgba(48, 48, 167, 0.847);
+    font-weight: 500;
+}
+
+.logos{
+    
+    width:220px ;
+height: ;
+margin-left:880px;
+margin-top:-46px;
+font-size:24px ;
+}
+.logos .div{
+margin-top:-14.5px;
+}
+.logos p{
+    margin-left:18px;
+    font-size: 15px;
+    color: rgba(21, 17, 135, 0.799);
+    margin-bottom:px;
+    
+    font-family: 'Merianda', cursive;
+    font-weight:600;
+}
+.logos i{
+    margin-left:12px;
+    margin-top;
+    color: rgba(21, 17, 135, 0.785);
+    padding-top;
+    
+}
+
+
+#nav{
+    padding-top:13px;
+    width:100% ;
+    margin-top: px;
+    height: 100px;
+    background-color: rgba(2, 2, 58, 0.943);
+    display:flex;
+    width:100% ;
+    justify-content: space-evenly;
+    align-items: center;
+   
+  
+
+}
+#nav ul{
+    
+}
+    
+
+#nav ul li{
+ 
+    list-style:none;
+    
+    
+    
+   
+
+    
+}
+#nav #one, #two, #three{
+    margin-left: -25px;
+}
+.navh{
+   
+    color:rgba(150, 160, 11, 0.934);
+
+    
+    font-size: 22px;
+    font-family: 'Dancing Script', cursive;
+    font-weight:600;
+    
+    
+
+}
+.navb{
+    
+    color: rgb(139, 139, 139);
+    font-size: 13px;
+    
+}
+
+
